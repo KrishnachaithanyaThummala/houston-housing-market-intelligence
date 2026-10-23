@@ -1,0 +1,58 @@
+{
+  "selection": {
+    "experiment": "B: property + historical ZHVI",
+    "model": "Random Forest",
+    "selection_metric": "training grouped CV MAE",
+    "cv_mae": 124285.16036064348,
+    "features": [
+      "bedrooms",
+      "bathrooms",
+      "living_area",
+      "lot_area_sqft",
+      "latitude",
+      "longitude",
+      "zip_code",
+      "property_type",
+      "historical_zhvi",
+      "zhvi_change_6m",
+      "zhvi_change_12m"
+    ]
+  },
+  "eligible_rows": 8340,
+  "excluded_missing_market_rows": 36,
+  "partitions": {
+    "train": 4974,
+    "validation": 1717,
+    "test": 1649
+  },
+  "test": {
+    "mae": 102585.37873519305,
+    "rmse": 290107.22671265155,
+    "r2": 0.8389659378702318,
+    "median_absolute_error": 37535.61358860094,
+    "median_absolute_percentage_error": 11.331782555841812,
+    "n": 1649
+  },
+  "median_baseline_test": {
+    "mae": 295951.41661613097,
+    "rmse": 745976.6164146594,
+    "r2": -0.06475841669417082,
+    "median_absolute_error": 120000.0,
+    "median_absolute_percentage_error": 36.37024913620658,
+    "n": 1649
+  },
+  "zip_holdout_training_stress_test": {
+    "mae": 92746.42260944855,
+    "rmse": 198401.55935392476,
+    "r2": 0.7947345101028069,
+    "median_absolute_error": 43526.17128701953,
+    "median_absolute_percentage_error": 14.106290210020733,
+    "n": 850
+  },
+  "empirical_90_interval_radius_dollars": 192005.25798465643,
+  "test_interval_coverage": 0.8878107944208611,
+  "uncertainty_limit": "Validation absolute residual quantile; global, empirical, not an appraisal interval. OOF models differ from calibrated model.",
+  "grouping": "Connected address / rounded 0.001-degree coordinate groups; residual spatial dependence remains",
+  "fixed_budget": "Fixed hyperparameters, 3 grouped CV folds; no exhaustive search",
+  "pseudo_label_limit": "Outer-fold model family and feature set selected on inner folds; labels remain screening proxies, not independent mispricing truth"
+}

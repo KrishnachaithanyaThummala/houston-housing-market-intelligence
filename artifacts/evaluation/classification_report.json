@@ -1,0 +1,278 @@
+{
+  "winner_for_pseudo_label_reproduction": "Random Forest",
+  "production_method": "Deterministic pricing gap rule",
+  "class_names": [
+    "Approximately Fairly Priced",
+    "Potentially Overpriced",
+    "Potentially Underpriced"
+  ],
+  "class_distribution": {
+    "Approximately Fairly Priced": 3748,
+    "Potentially Underpriced": 2332,
+    "Potentially Overpriced": 2260
+  },
+  "details": {
+    "Logistic Regression": {
+      "per_class": {
+        "Approximately Fairly Priced": {
+          "precision": 0.5663189269746647,
+          "recall": 0.5026455026455027,
+          "f1-score": 0.5325858444288718,
+          "support": 756.0
+        },
+        "Potentially Overpriced": {
+          "precision": 0.3333333333333333,
+          "recall": 0.4072289156626506,
+          "f1-score": 0.3665943600867679,
+          "support": 415.0
+        },
+        "Potentially Underpriced": {
+          "precision": 0.39065817409766457,
+          "recall": 0.38493723849372385,
+          "f1-score": 0.38777660695468913,
+          "support": 478.0
+        },
+        "accuracy": 0.44451182534869615,
+        "macro avg": {
+          "precision": 0.4301034781352208,
+          "recall": 0.4316038856006257,
+          "f1-score": 0.4289856038234429,
+          "support": 1649.0
+        },
+        "weighted avg": {
+          "precision": 0.45676473580646665,
+          "recall": 0.44451182534869615,
+          "f1-score": 0.44883491567530454,
+          "support": 1649.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          380,
+          206,
+          170
+        ],
+        [
+          129,
+          169,
+          117
+        ],
+        [
+          162,
+          132,
+          184
+        ]
+      ]
+    },
+    "Random Forest": {
+      "per_class": {
+        "Approximately Fairly Priced": {
+          "precision": 0.5896358543417367,
+          "recall": 0.5568783068783069,
+          "f1-score": 0.5727891156462585,
+          "support": 756.0
+        },
+        "Potentially Overpriced": {
+          "precision": 0.3951965065502183,
+          "recall": 0.43614457831325304,
+          "f1-score": 0.4146620847651776,
+          "support": 415.0
+        },
+        "Potentially Underpriced": {
+          "precision": 0.4129979035639413,
+          "recall": 0.4121338912133891,
+          "f1-score": 0.41256544502617803,
+          "support": 478.0
+        },
+        "accuracy": 0.4845360824742268,
+        "macro avg": {
+          "precision": 0.4659434214852987,
+          "recall": 0.46838559213498304,
+          "f1-score": 0.4666722151458713,
+          "support": 1649.0
+        },
+        "weighted avg": {
+          "precision": 0.4894992443931216,
+          "recall": 0.4845360824742268,
+          "f1-score": 0.48654919304344046,
+          "support": 1649.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          421,
+          153,
+          182
+        ],
+        [
+          136,
+          181,
+          98
+        ],
+        [
+          157,
+          124,
+          197
+        ]
+      ]
+    },
+    "Gradient Boosting": {
+      "per_class": {
+        "Approximately Fairly Priced": {
+          "precision": 0.5091225021720244,
+          "recall": 0.7751322751322751,
+          "f1-score": 0.6145778710015731,
+          "support": 756.0
+        },
+        "Potentially Overpriced": {
+          "precision": 0.3402061855670103,
+          "recall": 0.2385542168674699,
+          "f1-score": 0.2804532577903683,
+          "support": 415.0
+        },
+        "Potentially Underpriced": {
+          "precision": 0.4830917874396135,
+          "recall": 0.20920502092050208,
+          "f1-score": 0.291970802919708,
+          "support": 478.0
+        },
+        "accuracy": 0.47604608853850816,
+        "macro avg": {
+          "precision": 0.44414015839288273,
+          "recall": 0.407630504306749,
+          "f1-score": 0.3956673105705499,
+          "support": 1649.0
+        },
+        "weighted avg": {
+          "precision": 0.459066132837171,
+          "recall": 0.47604608853850816,
+          "f1-score": 0.43697453987617496,
+          "support": 1649.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          586,
+          110,
+          60
+        ],
+        [
+          269,
+          99,
+          47
+        ],
+        [
+          296,
+          82,
+          100
+        ]
+      ]
+    },
+    "XGBoost": {
+      "per_class": {
+        "Approximately Fairly Priced": {
+          "precision": 0.5526315789473685,
+          "recall": 0.7222222222222222,
+          "f1-score": 0.6261467889908257,
+          "support": 756.0
+        },
+        "Potentially Overpriced": {
+          "precision": 0.3771712158808933,
+          "recall": 0.36626506024096384,
+          "f1-score": 0.37163814180929094,
+          "support": 415.0
+        },
+        "Potentially Underpriced": {
+          "precision": 0.43023255813953487,
+          "recall": 0.23221757322175732,
+          "f1-score": 0.3016304347826087,
+          "support": 478.0
+        },
+        "accuracy": 0.49060036385688294,
+        "macro avg": {
+          "precision": 0.4533451176559322,
+          "recall": 0.4402349518949811,
+          "f1-score": 0.4331384551942417,
+          "support": 1649.0
+        },
+        "weighted avg": {
+          "precision": 0.4729937483720309,
+          "recall": 0.49060036385688294,
+          "f1-score": 0.46802677328927045,
+          "support": 1649.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          546,
+          122,
+          88
+        ],
+        [
+          204,
+          152,
+          59
+        ],
+        [
+          238,
+          129,
+          111
+        ]
+      ]
+    },
+    "LightGBM": {
+      "per_class": {
+        "Approximately Fairly Priced": {
+          "precision": 0.5520504731861199,
+          "recall": 0.6944444444444444,
+          "f1-score": 0.6151142355008787,
+          "support": 756.0
+        },
+        "Potentially Overpriced": {
+          "precision": 0.3790523690773067,
+          "recall": 0.36626506024096384,
+          "f1-score": 0.37254901960784315,
+          "support": 415.0
+        },
+        "Potentially Underpriced": {
+          "precision": 0.4781144781144781,
+          "recall": 0.29707112970711297,
+          "f1-score": 0.3664516129032258,
+          "support": 478.0
+        },
+        "accuracy": 0.4966646452395391,
+        "macro avg": {
+          "precision": 0.4697391067926349,
+          "recall": 0.4525935447975071,
+          "f1-score": 0.45137162267064923,
+          "support": 1649.0
+        },
+        "weighted avg": {
+          "precision": 0.4870804193053423,
+          "recall": 0.4966646452395391,
+          "f1-score": 0.4819879176128934,
+          "support": 1649.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          525,
+          134,
+          97
+        ],
+        [
+          205,
+          152,
+          58
+        ],
+        [
+          221,
+          115,
+          142
+        ]
+      ]
+    }
+  },
+  "reference_rule": "Exact label definition; 100% agreement is tautological, not independent accuracy",
+  "interpretation": "Evaluates reproduction of cross-fitted model residual categories, not real market mispricing."
+}

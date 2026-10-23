@@ -1,0 +1,19 @@
+{
+  "source_rows": 26265,
+  "source_columns": 330,
+  "monthly_columns": 321,
+  "first_month": "2000-01-31",
+  "last_month": "2026-09-30",
+  "selected_zips": 98,
+  "city_counts": {
+    "Houston": 97,
+    "South Houston": 1
+  },
+  "unmatched_requested_texas_cities": [
+    "Houstonia"
+  ],
+  "missing_monthly_values": 129,
+  "latest_available_zips": 98,
+  "duplicate_selected_zips": 0,
+  "sha256": "7aa96670b013ea0ca57efd7da300faa0a2fca914f7c9bf3bc517649635167d0a"
+}

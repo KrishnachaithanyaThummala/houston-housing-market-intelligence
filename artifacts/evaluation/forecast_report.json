@@ -1,0 +1,46 @@
+{
+  "winner": "Naive",
+  "methods_requested": [
+    "Naive",
+    "Damped trend",
+    "ARIMA",
+    "Prophet",
+    "XGBoost lags"
+  ],
+  "failures": [],
+  "common_endpoint_rows": 3920,
+  "test_interval_coverage_by_horizon": {
+    "1": 0.8367346938775511,
+    "2": 0.7857142857142857,
+    "3": 0.7551020408163265,
+    "4": 0.826530612244898,
+    "5": 0.8877551020408163,
+    "6": 0.9285714285714286,
+    "7": 0.9693877551020408,
+    "8": 0.9693877551020408,
+    "9": 0.9693877551020408,
+    "10": 0.9795918367346939,
+    "11": 0.9795918367346939,
+    "12": 0.9795918367346939
+  },
+  "interval_method": "Pooled ZIP relative absolute errors, 90th percentile, separate calibration origin; not guaranteed coverage",
+  "origins": [
+    {
+      "cutoff": "2022-09-30",
+      "phase": "selection"
+    },
+    {
+      "cutoff": "2023-09-30",
+      "phase": "selection"
+    },
+    {
+      "cutoff": "2024-09-30",
+      "phase": "calibration"
+    },
+    {
+      "cutoff": "2025-09-30",
+      "phase": "test"
+    }
+  ],
+  "future_zip_count": 98
+}

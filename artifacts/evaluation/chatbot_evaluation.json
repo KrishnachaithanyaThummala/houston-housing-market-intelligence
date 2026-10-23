@@ -1,0 +1,16 @@
+{
+  "configuration": "Deterministic tool-grounded templates",
+  "configurations_tested": 1,
+  "cases": 60,
+  "passed": 60,
+  "exact_expected_fact_pass_rate": 1.0,
+  "mean_latency_seconds": 2.4979800218716264e-05,
+  "external_api_cost": 0,
+  "limits": "Fixed phrasing and expected substrings; not a broad natural-language or generative-LLM evaluation.",
+  "not_evaluated": [
+    "Local LLM",
+    "Hosted tool-grounded LLM",
+    "RAG LLM",
+    "Alternative grounded LLM configuration"
+  ]
+}

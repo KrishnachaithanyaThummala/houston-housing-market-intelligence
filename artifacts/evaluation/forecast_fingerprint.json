@@ -1,0 +1,10 @@
+{
+  "fingerprint": "2c550a067cb75593b5b0a60bf3a7040d2711abb96eed1dbcf4a5a304b48312d8",
+  "methods": [
+    "Naive",
+    "Damped trend",
+    "ARIMA",
+    "Prophet",
+    "XGBoost lags"
+  ]
+}

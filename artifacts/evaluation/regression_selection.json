@@ -1,0 +1,19 @@
+{
+  "experiment": "B: property + historical ZHVI",
+  "model": "Random Forest",
+  "selection_metric": "training grouped CV MAE",
+  "cv_mae": 124285.16036064348,
+  "features": [
+    "bedrooms",
+    "bathrooms",
+    "living_area",
+    "lot_area_sqft",
+    "latitude",
+    "longitude",
+    "zip_code",
+    "property_type",
+    "historical_zhvi",
+    "zhvi_change_6m",
+    "zhvi_change_12m"
+  ]
+}

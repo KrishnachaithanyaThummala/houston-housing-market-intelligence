@@ -1,0 +1,18 @@
+{
+  "repaired_generalized_zcta_count": 7,
+  "repaired_zips": [
+    "77062",
+    "77060",
+    "77090",
+    "77014",
+    "77036",
+    "77065",
+    "77073"
+  ],
+  "method": "Shapely make_valid; polygonal components only; source copy retained locally",
+  "modeled_properties": 8340,
+  "inside_selected_zcta_union": 8320,
+  "outside_selected_zcta_union": 20,
+  "inside_matching_zcta": 8214,
+  "interpretation": "Postal ZIP labels and ZCTA polygons need not agree. Outside-union points remain in analytics but are hidden from map."
+}

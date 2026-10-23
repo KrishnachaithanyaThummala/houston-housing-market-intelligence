@@ -1,0 +1,111 @@
+{
+  "local_deliverables_present": true,
+  "missing": [],
+  "manifest": {
+    "app.py": {
+      "bytes": 23764,
+      "sha256": "b895bb871aab23d473a787f5f453c22e577dec06edc8f00116dbbf300e1953c8"
+    },
+    "requirements.txt": {
+      "bytes": 178,
+      "sha256": "b3562dd5b950b4a6e0860ee3950018786a1ef95318fded38354599c2222e4ebc"
+    },
+    "requirements-colab.txt": {
+      "bytes": 135,
+      "sha256": "8fb9c976a727c0105fe10a65d65dfcfffc4f568f4c27a6432c316c26f56835ba"
+    },
+    "README.md": {
+      "bytes": 5593,
+      "sha256": "246a0f7ad47e580b505e26702a12796082cb30cdcd717c8b373a8c765bd5fc6e"
+    },
+    "DATA_ATTRIBUTION.md": {
+      "bytes": 1981,
+      "sha256": "616f459fa98676879e435264f1bc7a60873ba447c43f50b382179da5df0fa814"
+    },
+    ".streamlit/config.toml": {
+      "bytes": 191,
+      "sha256": "f63986ad2b98ea592db8dab8c1a82149b225965d17f5751a67025a37bdd9aef1"
+    },
+    "artifacts/models/price_pipeline.joblib": {
+      "bytes": 15000549,
+      "sha256": "3a831fd12009108bb9578474383520b95cbea44e9ae15d626c0852936d3f932b"
+    },
+    "artifacts/predictions/properties.parquet": {
+      "bytes": 982560,
+      "sha256": "49d00e24f8f7819c2a0de959d5c3a91f23c8641095e943b3b9650937cf095aef"
+    },
+    "artifacts/forecasts/forecasts.parquet": {
+      "bytes": 29798,
+      "sha256": "e53e92b88211599c82b29cd27191c5832f30546c941f19f7bdb4d75779ce7e94"
+    },
+    "artifacts/forecasts/backtests.parquet": {
+      "bytes": 1203962,
+      "sha256": "f65079dce63ead182c38a0f36ccdb42a8ba4a43079c3aa17e801e8f81e10568f"
+    },
+    "data/processed/zhvi.parquet": {
+      "bytes": 321479,
+      "sha256": "63f63c9e356e879a09a71ba9525cfe2ce1e9d8188e664d273b7b6e3868438071"
+    },
+    "data/processed/zip_metadata.parquet": {
+      "bytes": 7970,
+      "sha256": "49fab18c5629c9b6f5856a31c7952aa82c24ade62a6080bb7e11630ccf02ca6e"
+    },
+    "data/geographic/houston_zcta.geojson": {
+      "bytes": 169021,
+      "sha256": "928016d10b52851ab01adc4cd20fa6ed9b708c571c3f23d23359c5f92b9d9eec"
+    },
+    "reports/dataset_report.md": {
+      "bytes": 1871,
+      "sha256": "88b8c5a9f7fc6707d7c2d0db90de234f7ac9405d939a6aafd120d515df82c6ed"
+    },
+    "reports/dataset_integration_report.md": {
+      "bytes": 916,
+      "sha256": "3853620feee4e4f7eea6974e0331a7eacae91e0fd2c727bec6e6a968e3b1434c"
+    },
+    "reports/eda_report.md": {
+      "bytes": 1299,
+      "sha256": "53dbfc328605f9f13cfca56432f1b0fd9b0d2afcf2940a9f7b39b29d7d255751"
+    },
+    "reports/price_prediction_results.md": {
+      "bytes": 4817,
+      "sha256": "9989f80214317441a4440f012765b4a6a26e8fc46ed89eef90edc2e7ade5d220"
+    },
+    "reports/classification_results.md": {
+      "bytes": 1818,
+      "sha256": "9c2be95a80f5cd00d5b9342ae873daa0e6693315bf74e310925c0dfb00427fb3"
+    },
+    "reports/forecasting_results.md": {
+      "bytes": 6059,
+      "sha256": "5e387c38d485f865fe057cb5a5e8acef3c7dcd36b28475d2d67b8dd8d6c85b9d"
+    },
+    "reports/chatbot_evaluation.md": {
+      "bytes": 767,
+      "sha256": "9a60d7c3691920f9557355c8611d271ec3c44e8321644ed9972dda6f9c198776"
+    },
+    "reports/final_model_comparison.md": {
+      "bytes": 1229,
+      "sha256": "9ca963c4879e5b93da3e8841f29060e31f9f043f1f6121829e84bb91ce1c83eb"
+    },
+    "docs/deployment.md": {
+      "bytes": 2346,
+      "sha256": "cc2092bc3e0d696468c181f45de202ff82ba5f0b2b760cc3c11c7df3a2f7c814"
+    },
+    "presentation/demo_script.md": {
+      "bytes": 2448,
+      "sha256": "8784505210765875e1530b633c8078c4b69085bc295e88dc1ca3bfc2d20c323d"
+    },
+    "presentation/judge_qa.md": {
+      "bytes": 3995,
+      "sha256": "2b08852462eef90d62bca4ec981ad1668523a0edee02581c61b3c68a4d13c27c"
+    }
+  },
+  "public_url": null,
+  "public_deployment_verified": false,
+  "remaining": [
+    "Streamlit account/terms sign-in and public deployment verification",
+    "Challenge 2 rubric and actual deadline",
+    "Team names",
+    "Four untested LLM configurations",
+    "Final slide deck"
+  ]
+}
