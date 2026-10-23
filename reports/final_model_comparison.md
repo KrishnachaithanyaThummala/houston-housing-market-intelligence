@@ -1,6 +1,6 @@
 # Final model comparison and current status
 
-- Regression: five model families × two feature sets evaluated; selected Random Forest, held-out MAE $102,585.38. Selection uses training CV, not the test leaderboard.
+- Regression: five model families × two feature sets evaluated; selected Random Forest, held-out MAE \$102,585.38. Selection uses training CV, not the test leaderboard.
 - Classification: five models evaluated for pseudo-label reproduction; selected Random Forest. Production remains the deterministic gap rule.
 - Forecasting: five methods evaluated at four origins for 98 ZIPs; selected Naive using earlier origins. All 12 future months exported.
 - Assistant: one deterministic grounded configuration, 60/60 narrow fixed checks. Four LLM configurations remain unevaluated.

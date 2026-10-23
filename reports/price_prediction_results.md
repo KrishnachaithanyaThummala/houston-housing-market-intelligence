@@ -2,7 +2,7 @@
 
 Selected using grouped training-only CV MAE: **Random Forest**, **B: property + historical ZHVI**. Fixed modest configurations and 3 folds; no exhaustive hyperparameter search. Both experiments share the same eligible records and persisted splits. All preprocessing is fit within folds. Log1p targets are inverse-transformed before dollar evaluation.
 
-Partitions: {'train': 4974, 'validation': 1717, 'test': 1649}. Address/rounded coordinate connected groups prevent direct duplicate/near-coordinate overlap. This cannot eliminate all spatial dependence. Training-only ZIP holdout stress-test MAE: $92,746.42 on 850 cases; its distribution differs from the final test.
+Partitions: {'train': 4974, 'validation': 1717, 'test': 1649}. Address/rounded coordinate connected groups prevent direct duplicate/near-coordinate overlap. This cannot eliminate all spatial dependence. Training-only ZIP holdout stress-test MAE: \$92,746.42 on 850 cases; its distribution differs from the final test.
 
 | experiment                    | model             |     cv_mae |   cv_mae_std |   validation_mae |   test_mae |    test_rmse |   test_r2 |   test_median_absolute_error |   test_median_absolute_percentage_error |   test_n |   milliseconds_per_prediction |
 |:------------------------------|:------------------|-----------:|-------------:|-----------------:|-----------:|-------------:|----------:|-----------------------------:|----------------------------------------:|---------:|------------------------------:|
@@ -17,10 +17,10 @@ Partitions: {'train': 4974, 'validation': 1717, 'test': 1649}. Address/rounded c
 | B: property + historical ZHVI | XGBoost           | 126501.885 |     5848.063 |       118929.945 | 104344.367 |   282110.838 |     0.848 |                    42592.141 |                                  12.396 |     1649 |                         0.003 |
 | B: property + historical ZHVI | LightGBM          | 124920.328 |     5747.825 |       117505.490 |  99280.648 |   249158.292 |     0.881 |                    39257.344 |                                  11.732 |     1649 |                         0.005 |
 
-Selected model test MAE: **$102,585.38**, RMSE **$290,107.23**, R² **0.8390**, median absolute error **$37,535.61**. Median absolute percentage error: **11.33%**. Median-price baseline MAE: **$295,951.42**. R² is not accuracy.
+Selected model test MAE: **\$102,585.38**, RMSE **\$290,107.23**, R² **0.8390**, median absolute error **\$37,535.61**. Median absolute percentage error: **11.33%**. Median-price baseline MAE: **\$295,951.42**. R² is not accuracy.
 
 Some alternatives have lower final test MAE. We keep the earlier CV selection rather than reselecting on test results. Ridge's large test errors show instability after inverse-transforming extrapolated log predictions; all measured results remain visible.
 
-Validation residual 90th-percentile radius: $192,005.26. Held-out empirical coverage: 88.78%, below the 90% target. This broad global band is not a formal appraisal interval. Training examples use nested cross-fitting and may use a different fold-selected model; the app shows held-out records so its SHAP explanation matches the displayed estimate.
+Validation residual 90th-percentile radius: \$192,005.26. Held-out empirical coverage: 88.78%, below the 90% target. This broad global band is not a formal appraisal interval. Training examples use nested cross-fitting and may use a different fold-selected model; the app shows held-out records so its SHAP explanation matches the displayed estimate.
 
 Model predicts historical asking prices, not independently measured fair market value. Dataset vintage, listing-price target, outliers and shared Zillow provenance limit interpretation.

@@ -207,7 +207,7 @@ elif page == 'Housing map':
             if match and match[1] in set(examples.property_id):
                 hit = examples.loc[examples.property_id.eq(match[1])].iloc[0]
                 st.subheader(hit.address)
-                st.write(f"Historical asking price **${hit.price:,.0f}** · estimate **${hit.estimated_price:,.0f}** · {hit.pricing_category}")
+                st.write(f"Historical asking price **\\${hit.price:,.0f}** · estimate **\\${hit.estimated_price:,.0f}** · {hit.pricing_category}")
                 if st.button('Open this property'):
                     # Sidebar widget cannot be mutated after instantiation; route through a pending ID.
                     st.session_state['pending_property_id'] = hit.property_id
@@ -232,12 +232,12 @@ elif page == 'Property intelligence':
         st.info(pricing_category(selected['pricing_gap'],threshold))
         st.caption(DISCLAIMER)
         st.write(f"**{selected['bedrooms']:g} bedrooms · {selected['bathrooms']:g} bathrooms · {selected['living_area']:,.0f} sq ft · ZIP {selected['zip_code']}**")
-        st.write(f"Empirical historical estimate band: **${selected['estimate_lower']:,.0f}–${selected['estimate_upper']:,.0f}**. "
+        st.write(f"Empirical historical estimate band: **\\${selected['estimate_lower']:,.0f}–\\${selected['estimate_upper']:,.0f}**. "
                  f"Observed test coverage: {data['regression']['test_interval_coverage']:.1%}; target 90%. This global band is not a property appraisal interval.")
         st.subheader('Market-level adjustment')
         st.metric('Approximate index-adjusted estimate',f"${selected['market_adjusted_value']:,.0f}")
         st.write(f"Historical estimate × September 2026 ZHVI / April 2024 ZHVI. ZIP index: "
-                 f"${selected['historical_zhvi']:,.0f} → ${selected['latest_zhvi']:,.0f}. This is not a current asking price or fresh appraisal.")
+                 f"\\${selected['historical_zhvi']:,.0f} → \\${selected['latest_zhvi']:,.0f}. This is not a current asking price or fresh appraisal.")
         st.subheader('What influenced the model?')
         try:
             effects, base = explanation(selected['property_id'])
@@ -286,7 +286,7 @@ elif page == 'Housing assistant':
     if q:
         with st.chat_message('user'): st.write(q)
         with st.chat_message('assistant'):
-            st.write(answer(q,selected,data['forecasts'].loc[data['forecasts'].zip_code.eq(default_zip)],data['regression']))
+            st.write(answer(q,selected,data['forecasts'].loc[data['forecasts'].zip_code.eq(default_zip)],data['regression']).replace('$',r'\$'))
     st.caption('One deterministic configuration is implemented. Local/hosted LLM and RAG comparisons have not been run. The predictive models power the analytics; this fallback does not claim generative-LLM behavior.')
 
 elif page == 'Model evaluation':

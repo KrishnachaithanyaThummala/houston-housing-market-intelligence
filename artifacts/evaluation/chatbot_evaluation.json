@@ -4,7 +4,7 @@
   "cases": 60,
   "passed": 60,
   "exact_expected_fact_pass_rate": 1.0,
-  "mean_latency_seconds": 2.4979800218716264e-05,
+  "mean_latency_seconds": 2.408608270343393e-05,
   "external_api_cost": 0,
   "limits": "Fixed phrasing and expected substrings; not a broad natural-language or generative-LLM evaluation.",
   "not_evaluated": [

@@ -15,7 +15,7 @@ root=Path(__file__).resolve().parents[1]
 out=root/'reports'
 (out/'charts').mkdir(exist_ok=True)
 def read(name): return json.loads((root/'artifacts/evaluation'/name).read_text())
-def write(name,text): (out/name).write_text(text)
+def write(name,text): (out/name).write_text(text.replace('$',r'\$'))
 def table(frame): return frame.to_markdown(index=False,floatfmt='.3f')
 props=pd.read_parquet(root/'artifacts/predictions/properties.parquet')
 raw=pd.read_parquet(root/'data/processed/integrated.parquet')

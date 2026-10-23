@@ -10,6 +10,6 @@
 
 **1:50–2:15 — Assistant.** Open Housing assistant. Ask “What is the historical listing price?” then “What is its flood risk?” “The fallback answers using the actual selected record and states when a field is unavailable. We tested 60 fixed factual cases; this is not a claim of general conversational accuracy or five evaluated LLMs.”
 
-**2:15–2:45 — Results and limits.** Open Model evaluation. “Training CV selected Random Forest with historical market features. Its test MAE was about $102,585, median absolute error $37,536 and R² 0.839. The data contains asking prices rather than appraisals, and historical ZHVI has been revised. The demonstrated benefit is an integrated, explainable workflow; we have not measured buyer savings.”
+**2:15–2:45 — Results and limits.** Open Model evaluation. “Training CV selected Random Forest with historical market features. Its test MAE was about \$102,585, median absolute error \$37,536 and R² 0.839. The data contains asking prices rather than appraisals, and historical ZHVI has been revised. The demonstrated benefit is an integrated, explainable workflow; we have not measured buyer savings.”
 
 Before presenting: confirm team names and official time limit; test the fresh public URL; choose a known held-out example; keep reports and local app available as a fallback. Never announce a deployment URL that has not been verified.

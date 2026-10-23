@@ -5,7 +5,7 @@
     "expected_substring":"$300,000",
     "response":"The historical asking price was $300,000; this is not a live listing price. Source: historical property 112150975, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.000058083
+    "seconds":0.000047
   },
   {
     "property_id":"112150975",
@@ -13,7 +13,7 @@
     "expected_substring":"$327,386",
     "response":"The historical model estimate is $327,386. It estimates historical asking price, not independently verified fair market value. Source: historical property 112150975, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.000007375
+    "seconds":0.0000065
   },
   {
     "property_id":"112150975",
@@ -21,7 +21,7 @@
     "expected_substring":"77034",
     "response":"The selected property's ZIP code is 77034. Source: historical property 112150975, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.000003709
+    "seconds":0.000003584
   },
   {
     "property_id":"112150975",
@@ -29,7 +29,7 @@
     "expected_substring":"3 bathrooms",
     "response":"The selected property has 4 bedrooms and 3 bathrooms. Source: historical property 112150975, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.000004875
+    "seconds":0.000004125
   },
   {
     "property_id":"112150975",
@@ -37,7 +37,7 @@
     "expected_substring":"2,372",
     "response":"Recorded living area is 2,372 square feet. Source: historical property 112150975, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.000004041
+    "seconds":0.000003708
   },
   {
     "property_id":"112150975",
@@ -45,7 +45,7 @@
     "expected_substring":"-8.4%",
     "response":"Approximately Fairly Priced: the historical asking price ($300,000) is -8.4% relative to the out-of-sample estimate ($327,386). Categories use configurable \u00b110% thresholds by default. Pricing categories are model-based screening indicators, not verified market valuations or guaranteed investment opportunities. Source: historical property 112150975, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.000005333
+    "seconds":0.00000475
   },
   {
     "property_id":"112150975",
@@ -53,7 +53,7 @@
     "expected_substring":"unavailable",
     "response":"That information is unavailable in the approved application data. I will not infer it.",
     "passed":true,
-    "seconds":0.000000833
+    "seconds":0.000000791
   },
   {
     "property_id":"112150975",
@@ -61,7 +61,7 @@
     "expected_substring":"does not match",
     "response":"That identifier does not match the selected property. Select the matching record first.",
     "passed":true,
-    "seconds":0.000002833
+    "seconds":0.000002625
   },
   {
     "property_id":"112150975",
@@ -69,7 +69,7 @@
     "expected_substring":"$220,202",
     "response":"ZIP 77034: Naive forecasts ZHVI of $220,202 for September 2027 (+0.0% relative to the latest observation). Empirical interval: $202,086\u2013$238,319. This is a ZIP index, not a property sale-price forecast. Source: saved forecast artifact; origin September 2026.",
     "passed":true,
-    "seconds":0.000273417
+    "seconds":0.000270792
   },
   {
     "property_id":"112150975",
@@ -77,7 +77,7 @@
     "expected_substring":"not a current listing price",
     "response":"The approximate ZIP-index-adjusted estimate is $313,475, using 2024-04-30 and 2026-09-30 ZHVI. It is not a current listing price, appraisal or evidence this home is available. Source: historical property 112150975, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.000011458
+    "seconds":0.000006417
   },
   {
     "property_id":"112152541",
@@ -85,7 +85,7 @@
     "expected_substring":"$1,498,000",
     "response":"The historical asking price was $1,498,000; this is not a live listing price. Source: historical property 112152541, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.000008792
+    "seconds":0.000007209
   },
   {
     "property_id":"112152541",
@@ -93,7 +93,7 @@
     "expected_substring":"$1,108,956",
     "response":"The historical model estimate is $1,108,956. It estimates historical asking price, not independently verified fair market value. Source: historical property 112152541, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.000005333
+    "seconds":0.000004375
   },
   {
     "property_id":"112152541",
@@ -101,7 +101,7 @@
     "expected_substring":"77077",
     "response":"The selected property's ZIP code is 77077. Source: historical property 112152541, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.000003375
+    "seconds":0.000002958
   },
   {
     "property_id":"112152541",
@@ -109,7 +109,7 @@
     "expected_substring":"4 bathrooms",
     "response":"The selected property has 4 bedrooms and 4 bathrooms. Source: historical property 112152541, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.000004541
+    "seconds":0.000003791
   },
   {
     "property_id":"112152541",
@@ -117,7 +117,7 @@
     "expected_substring":"4,707",
     "response":"Recorded living area is 4,707 square feet. Source: historical property 112152541, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.000003834
+    "seconds":0.000003209
   },
   {
     "property_id":"112152541",
@@ -125,7 +125,7 @@
     "expected_substring":"+35.1%",
     "response":"Potentially Overpriced: the historical asking price ($1,498,000) is +35.1% relative to the out-of-sample estimate ($1,108,956). Categories use configurable \u00b110% thresholds by default. Pricing categories are model-based screening indicators, not verified market valuations or guaranteed investment opportunities. Source: historical property 112152541, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.00000525
+    "seconds":0.000004333
   },
   {
     "property_id":"112152541",
@@ -133,7 +133,7 @@
     "expected_substring":"unavailable",
     "response":"That information is unavailable in the approved application data. I will not infer it.",
     "passed":true,
-    "seconds":0.000000875
+    "seconds":0.000000625
   },
   {
     "property_id":"112152541",
@@ -141,7 +141,7 @@
     "expected_substring":"does not match",
     "response":"That identifier does not match the selected property. Select the matching record first.",
     "passed":true,
-    "seconds":0.000002958
+    "seconds":0.000002417
   },
   {
     "property_id":"112152541",
@@ -149,7 +149,7 @@
     "expected_substring":"$382,339",
     "response":"ZIP 77077: Naive forecasts ZHVI of $382,339 for September 2027 (+0.0% relative to the latest observation). Empirical interval: $350,882\u2013$413,795. This is a ZIP index, not a property sale-price forecast. Source: saved forecast artifact; origin September 2026.",
     "passed":true,
-    "seconds":0.000218667
+    "seconds":0.000276375
   },
   {
     "property_id":"112152541",
@@ -157,7 +157,7 @@
     "expected_substring":"not a current listing price",
     "response":"The approximate ZIP-index-adjusted estimate is $1,066,291, using 2024-04-30 and 2026-09-30 ZHVI. It is not a current listing price, appraisal or evidence this home is available. Source: historical property 112152541, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.000006542
+    "seconds":0.000005166
   },
   {
     "property_id":"112153228",
@@ -165,7 +165,7 @@
     "expected_substring":"$260,000",
     "response":"The historical asking price was $260,000; this is not a live listing price. Source: historical property 112153228, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.000007125
+    "seconds":0.000006042
   },
   {
     "property_id":"112153228",
@@ -173,7 +173,7 @@
     "expected_substring":"$237,922",
     "response":"The historical model estimate is $237,922. It estimates historical asking price, not independently verified fair market value. Source: historical property 112153228, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.000004791
+    "seconds":0.000004125
   },
   {
     "property_id":"112153228",
@@ -181,7 +181,7 @@
     "expected_substring":"77064",
     "response":"The selected property's ZIP code is 77064. Source: historical property 112153228, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.000002875
+    "seconds":0.000002542
   },
   {
     "property_id":"112153228",
@@ -189,7 +189,7 @@
     "expected_substring":"3 bathrooms",
     "response":"The selected property has 3 bedrooms and 3 bathrooms. Source: historical property 112153228, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.000003958
+    "seconds":0.000003458
   },
   {
     "property_id":"112153228",
@@ -197,7 +197,7 @@
     "expected_substring":"1,535",
     "response":"Recorded living area is 1,535 square feet. Source: historical property 112153228, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.000003458
+    "seconds":0.000003
   },
   {
     "property_id":"112153228",
@@ -205,7 +205,7 @@
     "expected_substring":"+9.3%",
     "response":"Approximately Fairly Priced: the historical asking price ($260,000) is +9.3% relative to the out-of-sample estimate ($237,922). Categories use configurable \u00b110% thresholds by default. Pricing categories are model-based screening indicators, not verified market valuations or guaranteed investment opportunities. Source: historical property 112153228, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.000004417
+    "seconds":0.000003917
   },
   {
     "property_id":"112153228",
@@ -213,90 +213,10 @@
     "expected_substring":"unavailable",
     "response":"That information is unavailable in the approved application data. I will not infer it.",
     "passed":true,
-    "seconds":0.00000075
+    "seconds":0.000000625
   },
   {
     "property_id":"112153228",
-    "question":"What about property 999999999999?",
-    "expected_substring":"does not match",
-    "response":"That identifier does not match the selected property. Select the matching record first.",
-    "passed":true,
-    "seconds":0.0000025
-  },
-  {
-    "property_id":"112153228",
-    "question":"What is the 12 month forecast?",
-    "expected_substring":"$264,863",
-    "response":"ZIP 77064: Naive forecasts ZHVI of $264,863 for September 2027 (+0.0% relative to the latest observation). Empirical interval: $243,072\u2013$286,655. This is a ZIP index, not a property sale-price forecast. Source: saved forecast artifact; origin September 2026.",
-    "passed":true,
-    "seconds":0.000186792
-  },
-  {
-    "property_id":"112153228",
-    "question":"Is it currently available?",
-    "expected_substring":"not a current listing price",
-    "response":"The approximate ZIP-index-adjusted estimate is $227,324, using 2024-04-30 and 2026-09-30 ZHVI. It is not a current listing price, appraisal or evidence this home is available. Source: historical property 112153228, snapshot 2024-06-05.",
-    "passed":true,
-    "seconds":0.000005334
-  },
-  {
-    "property_id":"112153658",
-    "question":"What is the historical listing price?",
-    "expected_substring":"$545,500",
-    "response":"The historical asking price was $545,500; this is not a live listing price. Source: historical property 112153658, snapshot 2024-06-05.",
-    "passed":true,
-    "seconds":0.0000065
-  },
-  {
-    "property_id":"112153658",
-    "question":"What is the model estimate?",
-    "expected_substring":"$539,384",
-    "response":"The historical model estimate is $539,384. It estimates historical asking price, not independently verified fair market value. Source: historical property 112153658, snapshot 2024-06-05.",
-    "passed":true,
-    "seconds":0.000004375
-  },
-  {
-    "property_id":"112153658",
-    "question":"What is the ZIP code?",
-    "expected_substring":"77044",
-    "response":"The selected property's ZIP code is 77044. Source: historical property 112153658, snapshot 2024-06-05.",
-    "passed":true,
-    "seconds":0.00000275
-  },
-  {
-    "property_id":"112153658",
-    "question":"How many bedrooms and bathrooms?",
-    "expected_substring":"4 bathrooms",
-    "response":"The selected property has 4 bedrooms and 4 bathrooms. Source: historical property 112153658, snapshot 2024-06-05.",
-    "passed":true,
-    "seconds":0.000003583
-  },
-  {
-    "property_id":"112153658",
-    "question":"What is the living area?",
-    "expected_substring":"3,724",
-    "response":"Recorded living area is 3,724 square feet. Source: historical property 112153658, snapshot 2024-06-05.",
-    "passed":true,
-    "seconds":0.00000325
-  },
-  {
-    "property_id":"112153658",
-    "question":"Why is it overpriced?",
-    "expected_substring":"+1.1%",
-    "response":"Approximately Fairly Priced: the historical asking price ($545,500) is +1.1% relative to the out-of-sample estimate ($539,384). Categories use configurable \u00b110% thresholds by default. Pricing categories are model-based screening indicators, not verified market valuations or guaranteed investment opportunities. Source: historical property 112153658, snapshot 2024-06-05.",
-    "passed":true,
-    "seconds":0.000004042
-  },
-  {
-    "property_id":"112153658",
-    "question":"What is its flood risk?",
-    "expected_substring":"unavailable",
-    "response":"That information is unavailable in the approved application data. I will not infer it.",
-    "passed":true,
-    "seconds":0.000000667
-  },
-  {
-    "property_id":"112153658",
     "question":"What about property 999999999999?",
     "expected_substring":"does not match",
     "response":"That identifier does not match the selected property. Select the matching record first.",
@@ -304,12 +224,92 @@
     "seconds":0.00000225
   },
   {
+    "property_id":"112153228",
+    "question":"What is the 12 month forecast?",
+    "expected_substring":"$264,863",
+    "response":"ZIP 77064: Naive forecasts ZHVI of $264,863 for September 2027 (+0.0% relative to the latest observation). Empirical interval: $243,072\u2013$286,655. This is a ZIP index, not a property sale-price forecast. Source: saved forecast artifact; origin September 2026.",
+    "passed":true,
+    "seconds":0.00017375
+  },
+  {
+    "property_id":"112153228",
+    "question":"Is it currently available?",
+    "expected_substring":"not a current listing price",
+    "response":"The approximate ZIP-index-adjusted estimate is $227,324, using 2024-04-30 and 2026-09-30 ZHVI. It is not a current listing price, appraisal or evidence this home is available. Source: historical property 112153228, snapshot 2024-06-05.",
+    "passed":true,
+    "seconds":0.000004667
+  },
+  {
+    "property_id":"112153658",
+    "question":"What is the historical listing price?",
+    "expected_substring":"$545,500",
+    "response":"The historical asking price was $545,500; this is not a live listing price. Source: historical property 112153658, snapshot 2024-06-05.",
+    "passed":true,
+    "seconds":0.000005708
+  },
+  {
+    "property_id":"112153658",
+    "question":"What is the model estimate?",
+    "expected_substring":"$539,384",
+    "response":"The historical model estimate is $539,384. It estimates historical asking price, not independently verified fair market value. Source: historical property 112153658, snapshot 2024-06-05.",
+    "passed":true,
+    "seconds":0.000003792
+  },
+  {
+    "property_id":"112153658",
+    "question":"What is the ZIP code?",
+    "expected_substring":"77044",
+    "response":"The selected property's ZIP code is 77044. Source: historical property 112153658, snapshot 2024-06-05.",
+    "passed":true,
+    "seconds":0.000002583
+  },
+  {
+    "property_id":"112153658",
+    "question":"How many bedrooms and bathrooms?",
+    "expected_substring":"4 bathrooms",
+    "response":"The selected property has 4 bedrooms and 4 bathrooms. Source: historical property 112153658, snapshot 2024-06-05.",
+    "passed":true,
+    "seconds":0.000003417
+  },
+  {
+    "property_id":"112153658",
+    "question":"What is the living area?",
+    "expected_substring":"3,724",
+    "response":"Recorded living area is 3,724 square feet. Source: historical property 112153658, snapshot 2024-06-05.",
+    "passed":true,
+    "seconds":0.000002958
+  },
+  {
+    "property_id":"112153658",
+    "question":"Why is it overpriced?",
+    "expected_substring":"+1.1%",
+    "response":"Approximately Fairly Priced: the historical asking price ($545,500) is +1.1% relative to the out-of-sample estimate ($539,384). Categories use configurable \u00b110% thresholds by default. Pricing categories are model-based screening indicators, not verified market valuations or guaranteed investment opportunities. Source: historical property 112153658, snapshot 2024-06-05.",
+    "passed":true,
+    "seconds":0.000003667
+  },
+  {
+    "property_id":"112153658",
+    "question":"What is its flood risk?",
+    "expected_substring":"unavailable",
+    "response":"That information is unavailable in the approved application data. I will not infer it.",
+    "passed":true,
+    "seconds":0.000000625
+  },
+  {
+    "property_id":"112153658",
+    "question":"What about property 999999999999?",
+    "expected_substring":"does not match",
+    "response":"That identifier does not match the selected property. Select the matching record first.",
+    "passed":true,
+    "seconds":0.000002
+  },
+  {
     "property_id":"112153658",
     "question":"What is the 12 month forecast?",
     "expected_substring":"$284,438",
     "response":"ZIP 77044: Naive forecasts ZHVI of $284,438 for September 2027 (+0.0% relative to the latest observation). Empirical interval: $261,036\u2013$307,840. This is a ZIP index, not a property sale-price forecast. Source: saved forecast artifact; origin September 2026.",
     "passed":true,
-    "seconds":0.000177708
+    "seconds":0.000178
   },
   {
     "property_id":"112153658",
@@ -317,7 +317,7 @@
     "expected_substring":"not a current listing price",
     "response":"The approximate ZIP-index-adjusted estimate is $518,179, using 2024-04-30 and 2026-09-30 ZHVI. It is not a current listing price, appraisal or evidence this home is available. Source: historical property 112153658, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.000004916
+    "seconds":0.000004541
   },
   {
     "property_id":"112156059",
@@ -325,7 +325,7 @@
     "expected_substring":"$527,000",
     "response":"The historical asking price was $527,000; this is not a live listing price. Source: historical property 112156059, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.000005916
+    "seconds":0.000005375
   },
   {
     "property_id":"112156059",
@@ -333,7 +333,7 @@
     "expected_substring":"$562,110",
     "response":"The historical model estimate is $562,110. It estimates historical asking price, not independently verified fair market value. Source: historical property 112156059, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.000004042
+    "seconds":0.000003542
   },
   {
     "property_id":"112156059",
@@ -341,7 +341,7 @@
     "expected_substring":"77004",
     "response":"The selected property's ZIP code is 77004. Source: historical property 112156059, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.000002708
+    "seconds":0.000002458
   },
   {
     "property_id":"112156059",
@@ -349,7 +349,7 @@
     "expected_substring":"4 bathrooms",
     "response":"The selected property has 3 bedrooms and 4 bathrooms. Source: historical property 112156059, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.000005833
+    "seconds":0.000002958
   },
   {
     "property_id":"112156059",
@@ -357,7 +357,7 @@
     "expected_substring":"2,548",
     "response":"Recorded living area is 2,548 square feet. Source: historical property 112156059, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.000003083
+    "seconds":0.000002791
   },
   {
     "property_id":"112156059",
@@ -365,90 +365,10 @@
     "expected_substring":"-6.2%",
     "response":"Approximately Fairly Priced: the historical asking price ($527,000) is -6.2% relative to the out-of-sample estimate ($562,110). Categories use configurable \u00b110% thresholds by default. Pricing categories are model-based screening indicators, not verified market valuations or guaranteed investment opportunities. Source: historical property 112156059, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.000003833
+    "seconds":0.000003625
   },
   {
     "property_id":"112156059",
-    "question":"What is its flood risk?",
-    "expected_substring":"unavailable",
-    "response":"That information is unavailable in the approved application data. I will not infer it.",
-    "passed":true,
-    "seconds":0.000000667
-  },
-  {
-    "property_id":"112156059",
-    "question":"What about property 999999999999?",
-    "expected_substring":"does not match",
-    "response":"That identifier does not match the selected property. Select the matching record first.",
-    "passed":true,
-    "seconds":0.000002
-  },
-  {
-    "property_id":"112156059",
-    "question":"What is the 12 month forecast?",
-    "expected_substring":"$349,584",
-    "response":"ZIP 77004: Naive forecasts ZHVI of $349,584 for September 2027 (+0.0% relative to the latest observation). Empirical interval: $320,823\u2013$378,346. This is a ZIP index, not a property sale-price forecast. Source: saved forecast artifact; origin September 2026.",
-    "passed":true,
-    "seconds":0.000176875
-  },
-  {
-    "property_id":"112156059",
-    "question":"Is it currently available?",
-    "expected_substring":"not a current listing price",
-    "response":"The approximate ZIP-index-adjusted estimate is $506,584, using 2024-04-30 and 2026-09-30 ZHVI. It is not a current listing price, appraisal or evidence this home is available. Source: historical property 112156059, snapshot 2024-06-05.",
-    "passed":true,
-    "seconds":0.000004708
-  },
-  {
-    "property_id":"112157746",
-    "question":"What is the historical listing price?",
-    "expected_substring":"$1,100,000",
-    "response":"The historical asking price was $1,100,000; this is not a live listing price. Source: historical property 112157746, snapshot 2024-06-05.",
-    "passed":true,
-    "seconds":0.000005959
-  },
-  {
-    "property_id":"112157746",
-    "question":"What is the model estimate?",
-    "expected_substring":"$866,719",
-    "response":"The historical model estimate is $866,719. It estimates historical asking price, not independently verified fair market value. Source: historical property 112157746, snapshot 2024-06-05.",
-    "passed":true,
-    "seconds":0.000004125
-  },
-  {
-    "property_id":"112157746",
-    "question":"What is the ZIP code?",
-    "expected_substring":"77044",
-    "response":"The selected property's ZIP code is 77044. Source: historical property 112157746, snapshot 2024-06-05.",
-    "passed":true,
-    "seconds":0.000002625
-  },
-  {
-    "property_id":"112157746",
-    "question":"How many bedrooms and bathrooms?",
-    "expected_substring":"5 bathrooms",
-    "response":"The selected property has 6 bedrooms and 5 bathrooms. Source: historical property 112157746, snapshot 2024-06-05.",
-    "passed":true,
-    "seconds":0.000003458
-  },
-  {
-    "property_id":"112157746",
-    "question":"What is the living area?",
-    "expected_substring":"5,636",
-    "response":"Recorded living area is 5,636 square feet. Source: historical property 112157746, snapshot 2024-06-05.",
-    "passed":true,
-    "seconds":0.000003
-  },
-  {
-    "property_id":"112157746",
-    "question":"Why is it overpriced?",
-    "expected_substring":"+26.9%",
-    "response":"Potentially Overpriced: the historical asking price ($1,100,000) is +26.9% relative to the out-of-sample estimate ($866,719). Categories use configurable \u00b110% thresholds by default. Pricing categories are model-based screening indicators, not verified market valuations or guaranteed investment opportunities. Source: historical property 112157746, snapshot 2024-06-05.",
-    "passed":true,
-    "seconds":0.000003958
-  },
-  {
-    "property_id":"112157746",
     "question":"What is its flood risk?",
     "expected_substring":"unavailable",
     "response":"That information is unavailable in the approved application data. I will not infer it.",
@@ -456,12 +376,92 @@
     "seconds":0.000000666
   },
   {
+    "property_id":"112156059",
+    "question":"What about property 999999999999?",
+    "expected_substring":"does not match",
+    "response":"That identifier does not match the selected property. Select the matching record first.",
+    "passed":true,
+    "seconds":0.000001917
+  },
+  {
+    "property_id":"112156059",
+    "question":"What is the 12 month forecast?",
+    "expected_substring":"$349,584",
+    "response":"ZIP 77004: Naive forecasts ZHVI of $349,584 for September 2027 (+0.0% relative to the latest observation). Empirical interval: $320,823\u2013$378,346. This is a ZIP index, not a property sale-price forecast. Source: saved forecast artifact; origin September 2026.",
+    "passed":true,
+    "seconds":0.000162417
+  },
+  {
+    "property_id":"112156059",
+    "question":"Is it currently available?",
+    "expected_substring":"not a current listing price",
+    "response":"The approximate ZIP-index-adjusted estimate is $506,584, using 2024-04-30 and 2026-09-30 ZHVI. It is not a current listing price, appraisal or evidence this home is available. Source: historical property 112156059, snapshot 2024-06-05.",
+    "passed":true,
+    "seconds":0.00000425
+  },
+  {
+    "property_id":"112157746",
+    "question":"What is the historical listing price?",
+    "expected_substring":"$1,100,000",
+    "response":"The historical asking price was $1,100,000; this is not a live listing price. Source: historical property 112157746, snapshot 2024-06-05.",
+    "passed":true,
+    "seconds":0.000005292
+  },
+  {
+    "property_id":"112157746",
+    "question":"What is the model estimate?",
+    "expected_substring":"$866,719",
+    "response":"The historical model estimate is $866,719. It estimates historical asking price, not independently verified fair market value. Source: historical property 112157746, snapshot 2024-06-05.",
+    "passed":true,
+    "seconds":0.000003583
+  },
+  {
+    "property_id":"112157746",
+    "question":"What is the ZIP code?",
+    "expected_substring":"77044",
+    "response":"The selected property's ZIP code is 77044. Source: historical property 112157746, snapshot 2024-06-05.",
+    "passed":true,
+    "seconds":0.000002458
+  },
+  {
+    "property_id":"112157746",
+    "question":"How many bedrooms and bathrooms?",
+    "expected_substring":"5 bathrooms",
+    "response":"The selected property has 6 bedrooms and 5 bathrooms. Source: historical property 112157746, snapshot 2024-06-05.",
+    "passed":true,
+    "seconds":0.000002917
+  },
+  {
+    "property_id":"112157746",
+    "question":"What is the living area?",
+    "expected_substring":"5,636",
+    "response":"Recorded living area is 5,636 square feet. Source: historical property 112157746, snapshot 2024-06-05.",
+    "passed":true,
+    "seconds":0.000002625
+  },
+  {
+    "property_id":"112157746",
+    "question":"Why is it overpriced?",
+    "expected_substring":"+26.9%",
+    "response":"Potentially Overpriced: the historical asking price ($1,100,000) is +26.9% relative to the out-of-sample estimate ($866,719). Categories use configurable \u00b110% thresholds by default. Pricing categories are model-based screening indicators, not verified market valuations or guaranteed investment opportunities. Source: historical property 112157746, snapshot 2024-06-05.",
+    "passed":true,
+    "seconds":0.000003458
+  },
+  {
+    "property_id":"112157746",
+    "question":"What is its flood risk?",
+    "expected_substring":"unavailable",
+    "response":"That information is unavailable in the approved application data. I will not infer it.",
+    "passed":true,
+    "seconds":0.000000541
+  },
+  {
     "property_id":"112157746",
     "question":"What about property 999999999999?",
     "expected_substring":"does not match",
     "response":"That identifier does not match the selected property. Select the matching record first.",
     "passed":true,
-    "seconds":0.000002
+    "seconds":0.000001833
   },
   {
     "property_id":"112157746",
@@ -469,7 +469,7 @@
     "expected_substring":"$284,438",
     "response":"ZIP 77044: Naive forecasts ZHVI of $284,438 for September 2027 (+0.0% relative to the latest observation). Empirical interval: $261,036\u2013$307,840. This is a ZIP index, not a property sale-price forecast. Source: saved forecast artifact; origin September 2026.",
     "passed":true,
-    "seconds":0.000194417
+    "seconds":0.000155667
   },
   {
     "property_id":"112157746",
@@ -477,6 +477,6 @@
     "expected_substring":"not a current listing price",
     "response":"The approximate ZIP-index-adjusted estimate is $832,645, using 2024-04-30 and 2026-09-30 ZHVI. It is not a current listing price, appraisal or evidence this home is available. Source: historical property 112157746, snapshot 2024-06-05.",
     "passed":true,
-    "seconds":0.00000475
+    "seconds":0.000004375
   }
 ]

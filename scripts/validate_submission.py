@@ -18,6 +18,7 @@ missing=[p for p in required if not (root/p).is_file() or (root/p).stat().st_siz
 manifest={p:{'bytes':(root/p).stat().st_size,
              'sha256':hashlib.sha256((root/p).read_bytes()).hexdigest()} for p in required if p not in missing}
 result={'local_deliverables_present':not missing,'missing':missing,
+        'source_repository':'https://github.com/KrishnachaithanyaThummala/houston-housing-market-intelligence',
         'manifest':manifest,'public_url':None,'public_deployment_verified':False,
         'remaining':['Streamlit account/terms sign-in and public deployment verification',
                      'Challenge 2 rubric and actual deadline', 'Team names',

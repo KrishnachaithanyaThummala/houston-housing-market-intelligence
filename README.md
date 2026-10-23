@@ -2,13 +2,15 @@
 
 A Streamlit research demo for historical Houston asking prices, explainable price estimates and ZIP-level home-value forecasts. No paid API is required. Historical listings are not represented as current inventory.
 
+Public source: https://github.com/KrishnachaithanyaThummala/houston-housing-market-intelligence . The live public application URL remains pending hosting sign-in and verification.
+
 ## Implemented and measured
 
 - Downloaded the original publisher's light JSON: 25,948 records, June 5, 2024 snapshot.
 - Cleaned 8,376 residential examples in the requested Texas city-label scope; 8,340 have historical ZHVI features.
 - Prepared 98 ZIP market series, through September 2026, with Houstonia, Missouri excluded.
 - Compared five regressors with/without historical ZHVI, five pseudo-label classifiers and five ZIP forecasting methods.
-- Selected Random Forest by training grouped CV: final test MAE $102,585; median absolute error $37,536; R² 0.839. These measure historical asking-price prediction, not market valuation.
+- Selected Random Forest by training grouped CV: final test MAE \$102,585; median absolute error \$37,536; R² 0.839. These measure historical asking-price prediction, not market valuation.
 - Forecast selection on earlier origins chose the naive baseline. Other methods can perform better on the final held-out period; test results are not used to reselect.
 - Built a seven-section dashboard with map, selected-property analysis, actual SHAP, empirical uncertainty, forecasts, evaluation and grounded deterministic Q&A.
 

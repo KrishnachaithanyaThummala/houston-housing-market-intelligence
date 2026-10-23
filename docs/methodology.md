@@ -2,7 +2,7 @@
 
 ## Data and geographic scope
 
-Two distinct units of analysis: historical property asking-price records and monthly ZIP-level ZHVI. Texas plus exact Houston/Houstonia/South Houston labels defines scope. Houstonia has no Texas match. City labels are not a municipal boundary or the entire metro. Property types are limited to single-family, condo and townhouse; lots, manufactured and multifamily are excluded from this residential experiment. Missing/nonpositive price, malformed ZIP and nonpositive living area are excluded. Two residential prices below $20,000 are excluded as ambiguous entries under a declared rule, not inferred to be rentals. No upper-price trimming is used.
+Two distinct units of analysis: historical property asking-price records and monthly ZIP-level ZHVI. Texas plus exact Houston/Houstonia/South Houston labels defines scope. Houstonia has no Texas match. City labels are not a municipal boundary or the entire metro. Property types are limited to single-family, condo and townhouse; lots, manufactured and multifamily are excluded from this residential experiment. Missing/nonpositive price, malformed ZIP and nonpositive living area are excluded. Two residential prices below \$20,000 are excluded as ambiguous entries under a declared rule, not inferred to be rentals. No upper-price trimming is used.
 
 ## Historical reference and feature allowlist
 

@@ -6,6 +6,8 @@ The app runs from precomputed artifacts. Python 3.13 and the pinned dependencies
 
 ## Streamlit Community Cloud
 
+Published repository: https://github.com/KrishnachaithanyaThummala/houston-housing-market-intelligence . Branch: `main`. Main file: `app.py`.
+
 Official deployment documentation: https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app .
 
 1. Put the repository source, requirements.txt, .streamlit/config.toml, artifacts/, data/processed/ and data/geographic/ in the intended GitHub repository. Exclude data/raw/, .runtime-packages/, environment secrets, caches and logs. Retain DATA_ATTRIBUTION.md and source notices.

@@ -2,7 +2,7 @@
 
 Listings: Natasha Lekh / datadetective08, [Houston housing market 2024](https://www.kaggle.com/datasets/datadetective08/houston-housing-market-2024), version 1, CC BY-NC-SA 4.0. Downloaded only the light JSON. Exact raw count: 25,948. No repeated property IDs. Publisher identifies June 5, 2024 as the snapshot; this is not each property's listing start date.
 
-Texas and requested city-label scope: 10,483 records. Single-family, condo and townhouse subset: 8,428. Invalid price/ZIP/living-area rows removed: 50. Two additional residential prices below $20,000 were excluded as ambiguous sale-price entries; they are not asserted to be rentals. Clean residential records: 8,376.
+Texas and requested city-label scope: 10,483 records. Single-family, condo and townhouse subset: 8,428. Invalid price/ZIP/living-area rows removed: 50. Two additional residential prices below \$20,000 were excluded as ambiguous sale-price entries; they are not asserted to be rentals. Clean residential records: 8,376.
 
 Year built is absent from the light file; no property-age feature was invented. Lot values are converted from acres to square feet only when source units are known. Missing lot area: 1,156; missing bedrooms: 1. Missing predictors are imputed inside model folds. Tax assessments, Zestimates, rent estimates, prices and price changes are excluded from predictor construction. Full flattened schema and exclusion list: artifacts/evaluation/listings_audit.json.
 
